@@ -205,8 +205,59 @@ hr {
   margin: 20px 0 10px 0;
 }
 .expect-card p {
-  
   color: rgb(125, 125, 167);
   line-height: 25px;
   margin-bottom: 25px;
+}
+
+/* Footer Section  */
+.footer-section {
+  background-color: rgb(34, 34, 66);
+  color: #ddd;
+  width: 100%;
+  padding: 20px 0;
+}
+.footer-left-right {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-left img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.footer-left p {
+  color: #ddd;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.footer-right img {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #ddd;
+}
+.footer-right {
+  text-align: center;
+}
+
+.footer-right span {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+footer hr {
+  width: 80%;
+  margin: 40px auto;
+}
+.copyright {
+  text-align: center;
+  color: #ddd;
+  font-size: 15px;
 }
