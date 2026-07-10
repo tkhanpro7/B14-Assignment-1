@@ -10,6 +10,13 @@
   border-style: none;
   font-weight: bold;
 }
+button:hover {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: lightslategray;
+}
 
 /* Nav Bar Style  */
 .nav-bar-section {
@@ -99,6 +106,9 @@ header p {
 .price-card-section {
   justify-items: center;
 }
+.price-card-heading {
+  text-align: center;
+}
 .price-card-container {
   display: flex;
   gap: 40px;
@@ -109,14 +119,14 @@ header p {
 }
 .price-card-container ul li {
   margin-bottom: 15px;
+  white-space: nowrap;
 }
 .price-card {
   border: solid 1px #ddd;
-  border-radius: 8px;
+  border-radius: 15px;
   background-color: rgb(253, 254, 251);
-  width: 100%;
-  max-width: 400px;
-  padding: 30px;
+  width: 350px;
+  padding: 50px;
   box-sizing: border-box;
 }
 .price-card-2 {
@@ -136,10 +146,12 @@ hr {
   border: 1px solid rgb(21, 21, 167);
   border-radius: 5px;
   color: blue;
+  margin-top: 15px;
 }
 .unique-price {
   width: 100%;
   padding: 10px;
+  margin-top: 15px;
   background-color: blue;
   border: 1px solid black;
   border-radius: 5px;
