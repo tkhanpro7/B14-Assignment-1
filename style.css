@@ -36,10 +36,12 @@ a {
   cursor: pointer;
   color: blueviolet;
 }
-
 .nav-btn {
   padding: 9px 30px;
   margin: 0;
+}
+.nav-bar-section img:hover {
+  cursor: pointer;
 }
 
 /* hero Section  */
