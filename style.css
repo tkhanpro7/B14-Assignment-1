@@ -31,10 +31,12 @@ a {
   list-style: none;
   padding: 15px 0px;
   gap: 20px;
+  font-weight: 500;
 }
-.nav-manue li:hover {
-  cursor: pointer;
-  color: blueviolet;
+
+.nav-manu a:hover{
+color:blue;
+font-weight: 700;
 }
 .nav-btn {
   padding: 9px 30px;
@@ -83,8 +85,7 @@ header p {
 .speaker-card img {
   width: 100%;
   height: auto;
-  border: solid 1px blanchedalmond;
-  border-color: antiquewhite;
+  border: 1px solid blanchedalmond;
   border-radius: 15px 15px 0 0;
 }
 .speaker-card {
@@ -129,7 +130,6 @@ header p {
   background-color: rgb(253, 254, 251);
   width: 350px;
   padding: 50px;
-  box-sizing: border-box;
 }
 .price-card-2 {
   background-color: black;
