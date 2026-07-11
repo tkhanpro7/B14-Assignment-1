@@ -10,6 +10,9 @@
   border-style: none;
   font-weight: bold;
 }
+body {
+    font-family: "Inter", sans-serif;
+}
 button:hover {
   cursor: pointer;
 }
@@ -180,8 +183,8 @@ hr {
 
 .highlight-section > p {
   color: rgb(125, 125, 167);
-  font-size: 22px;
-  line-height: 35px;
+  font-size: 18px;
+  line-height: 30px;
   margin-top: 25px;
 }
 .expect-container {
